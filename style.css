@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Arial;
+    box-sizing: border box;
+}
+
+.hero {
+    width: 100;
+    height: 100vh;
+    background : linear-gradient(rgba(44, 55, 106, 0.7),rgba(44, 55, 106, 0.7)),url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+.logo {
+    color: #a48d8d;
+    font-size: 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+h2 {
+    color:#a48d8d;
+    font-size: 45px;
+}
+
+nav ul li a {
+    list-style: none;
+    display:flow-root;
+    padding: 40px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(231, 215, 184);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #35b4ba;
+    transition: .4s;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%);
+}
+
+.content h1 {
+    color: #a48d8d;
+}
+
+#typing{
+    color: rgb(231, 215, 184);
+}
+
+.typing h1 {
+    color:rgb(231, 215, 184) ;
+}
+
+.content h3{
+    color: rgb(231, 215, 184);
+}
+
+hero h1 {
+    color: rgb(231, 215, 184);
+}
+
+h1 {
+    color: floralwhite;
+    font-size: 50px;
+    margin: 10px 0px 10px;
+}
+
+h3 {
+    color: floralwhite;
+    font-size:  15px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: #a48d8d;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.about {
+    width: 1215px;
+    padding: 100px 0px;
+    background-color: floralwhite;
+}
+
+.about img {
+    height: 350px;
+    width: 320px;
+}
+
+.about-text {
+    width: 900px;
+    height: 300px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about.text h2 {
+    color: #a48d8d;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.about.text h5 {
+    color: #a48d8d;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color:#a48d8d;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+
+.Educations {
+    background: floralwhite;
+    width: 100%;
+    font-size: 60px;
+    padding: 100px 0;
+}
+
+.title h2 {
+    color: #a48d8d;
+    font-size: 50px;
+    width: 1130px;
+    text-align: center;
+    margin: auto;
+}
+
+.title-text {
+    width: 900px;
+    height: 300px;
+}
+
+.title p{
+    color:#a48d8d;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 19px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.title img{
+    width: 35%;
+    height: 45%;
+    display: center;
+    align-items: center;
+    margin-left: 390px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: floralwhite;
+    color:#a48d8d;
+}
+
+.footer-content a {
+    font-size: 19px;
+    color:#a48d8d;
+
+}
+
+
+/* style.css */
+
+/* Warna latar belakang dan border input */
+.form-control {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+}
+
+/* Warna teks pada label */
+.form-label {
+    color: #a48d8d;
+}
+
+/* Efek hover untuk input */
+.form-control:hover {
+    background-color: #e9ecef;
+}
+
+/* Efek hover untuk textarea */
+.form-control:hover {
+    background-color: #e9ecef;
+}
+
+/* Padding pada input dan textarea */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Padding pada textarea */
+.form-control {
+    padding: 0.5rem;
+}
+
+/* Efek focus untuk input */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+
+
+
+
+
+
+
+/* .email, .social-media {
+    margin-right: 20px;
+}
+
+.email a, .social-media a {
+    color:floralwhite;
+    text-decoration: none;
+}
+
+.email a:hover, .social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-content a {
+    font-size: 19px;
+    color:#a48d8d;
+
+} */
+
+/* style.css */
+
+/* Kotak input email */
+.form-control[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+/* Kotak input email saat dihover */
+.form-control[type="email"]:hover {
+    border-color: #b8b8b8;
+}
+
+/* Kotak input email saat fokus */
+.form-control[type="email"]:focus {
+    border-color: #4d90fe;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Area teks */
+.form-control[type="textarea"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+/* Area teks saat dihover */
+.form-control[type="textarea"]:hover {
+    border-color: #b8b8b8;
+}
+
+/* Area teks saat fokus */
+.form-control[type="textarea"]:focus {
+    border-color: #4d90fe;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    font-size: smaller;
+ 
+
+}
+
+/* Style untuk label */
+.form-label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 30px;
+
+}
