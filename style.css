@@ -204,10 +204,6 @@ h4 {
 }
 
 /* Warna teks pada label */
-.form-label {
-    color: #a48d8d;
-    font-size: 20px;
-}
 
 /* Efek hover untuk input */
 .form-control:hover {
@@ -314,5 +310,6 @@ h4 {
     font-weight: bold;
     margin-bottom: 5px;
     margin: 30px;
-
+     color: #a48d8d;
+    font-size: 20px;
 }
