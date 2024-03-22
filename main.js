@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// JavaScript to handle form submission and display alert
+/ JavaScript to handle form submission and display alert
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm'); // Mengambil elemen formulir dengan id 'contactForm'
     form.addEventListener('submit', function(event) { // Menambahkan event listener untuk saat formulir disubmit
