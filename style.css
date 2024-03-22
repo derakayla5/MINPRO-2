@@ -206,6 +206,7 @@ h4 {
 /* Warna teks pada label */
 .form-label {
     color: #a48d8d;
+    font-size: 20px;
 }
 
 /* Efek hover untuk input */
